@@ -1,0 +1,10 @@
+/* Frontend Masters Day2 CSS File*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcffcf;
+}
+
+img {
+    border: 5px dashed sienna;
+}
