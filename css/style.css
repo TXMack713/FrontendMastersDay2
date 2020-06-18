@@ -37,6 +37,24 @@ ol li {
 ul li {
     font-style: italic;
 }
+a {
+    background-color: #f5f6f4;
+}
+a:link {
+    color: coral;
+}
+a:visited {
+    color: white;
+}
+a:focus {
+    color: cyan;
+}
+a:hover {
+    color: seashell;
+}
+a:active {
+      color: crimson;
+}
 /* .blah{
     background-color: honeydew;
     margin: 0em;
