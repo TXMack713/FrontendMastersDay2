@@ -1,65 +1,84 @@
 /* Frontend Masters Day2 CSS File*/
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #9adcf0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: ;
+  color: #0C3B40;
 }
 .intro {
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 1.25rem;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin: auto;
+  width: 80%;
 }
 img {
-    display: flex;
-    justify-content: space-around;
-    border: 0.75rem solid sienna;
+  display: flex;
+  justify-content: space-around;
+  border: 0.75rem solid #8ABFA6;
+  margin: auto;
+}
+p {
+  margin: auto;
+  width: 90%;
 }
 h1 {
-    border: 0.375rem solid red;
-    text-align: center;
+  border: 0.375rem solid #0C3B40;
+  text-align: center;
+  background-color: #C1D9C7;
+  color: #F2913D;
+}
+div {
+  margin: auto;
+  width: 100%;
 }
 blockquote {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-style: italic;
-    text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
 }
 cite {
-    font-size: 1.625rem;
+  font-size: 1.625rem;
 }
 .bigbold {
-    font-weight: bold;
-    font-size: 1.125rem;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 ol li {
-    font-style: italic;
+  font-style: italic;
 }
 ul li {
-    font-style: italic;
+  font-style: italic;
 }
 a {
-    background-color: #f5f6f4;
+  font-weight: bold;
 }
 a:link {
-    color: coral;
+  color: coral;
 }
 a:visited {
-    color: white;
+  color: coral;
 }
 a:focus {
-    color: cyan;
+  color: cyan;
 }
 a:hover {
-    color: seashell;
+  color: seashell;
+  background-color: peru;
 }
 a:active {
-      color: crimson;
+  color: crimson;
 }
-/* .blah{
-    background-color: honeydew;
-    margin: 0em;
+.blah{
+  margin: auto;
+  width: 100%;
 } 
 .blah_detail {
-    background-color: beige;
-    margin: 0em;
-} */
+  margin: auto;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
